@@ -1,0 +1,13 @@
+[package]
+name = "nt-primes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#[dependencies]
+#number-theory = "0.0.2"
+
+[dependencies]
+number-theory = { git = "https://github.com/JASory/ENT" }
+#{path = "/home/jasory/Projects/number-theory"
