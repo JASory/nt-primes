@@ -1,13 +1,19 @@
 [package]
 name = "nt-primes"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-#[dependencies]
-#number-theory = "0.0.2"
+authors = ["J.A Sory j_a_sory@protonmail.com"]
+description = "Recreational mathematics crate for various forms of primes."
+keywords = ["prime","primes", "primality"]
+homepage   = "https://rust-cas.org"
+repository = "https://github.com/JASory/nt-primes"
+license    = "MIT"
+categories = ["mathematics"]
+readme      = "Readme.md"
 
 [dependencies]
-number-theory = { git = "https://github.com/JASory/ENT" }
-#{path = "/home/jasory/Projects/number-theory"
+number-theory = "0.0.4"
+
